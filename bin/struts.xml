@@ -1,0 +1,53 @@
+<!DOCTYPE struts PUBLIC  
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"  
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<!-- 将Action的创建交给spring来管理 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<constant name="struts.locale" value="zh_CN"></constant>
+	<constant name="struts.i18n.encoding" value="UTF-8"></constant>
+	<constant name="struts.multipart.maxSize" value="524288000" />
+	<constant name="struts.action.extension" value="htm" />   
+	<constant name="struts.enable.SlashesInActionNames" value="true" />
+	
+	<!-- 更改struts2请求Action的后缀名，默认为action。若想去掉后缀，设为","即可 -->
+
+	<package name="default" namespace="/" extends="struts-default">
+		<!--
+			配置拦截器 <interceptors> <interceptor name="myInterceptor"
+			class="myInterceptor"></interceptor> <interceptor-stack
+			name="myDefult"> <interceptor-ref
+			name="myInterceptor"></interceptor-ref> <interceptor-ref
+			name="defaultStack"></interceptor-ref> </interceptor-stack>
+			</interceptors>
+		-->
+
+		<action name="user" class="userAction">
+		</action>
+
+		<action name="*/*" class="{1}" method="{2}">
+			<result name="success" >
+				/success.jsp
+			</result>
+			<result name="loadfile" type="stream">
+				<param name="contentType">text/plain</param>
+				<param name="contentDisposition">attachment;fileName="${fileName}"</param>
+				<param name="inputName">{2}</param>
+				<param name="bufferSize">2048</param>
+			</result>
+		</action>
+		
+
+		
+		<!--
+			<action name="news" class="newsAction" method="getWeatherByKeyWord">
+			</action> <action name="FileDownload"
+			class="com.conavo.register.actions.downloadfile.SerialFileDownloadAction">
+			<result name="success" type="stream"> <param
+			name="contentType">text/plain</param> <param
+			name="contentDisposition">attachment;fileName="${fileName}"</param>
+			<param name="inputName">downloadFile</param> <param
+			name="bufferSize">2048</param> </result> </action>
+		-->
+	</package>
+</struts>  

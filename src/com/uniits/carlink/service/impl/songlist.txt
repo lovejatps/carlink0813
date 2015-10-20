@@ -1,0 +1,122 @@
+[
+        {
+            "songname": "男人哭吧不是罪",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "男人的爱",
+            "songlink": "http://123.56.110.97/carlink/music/song/lanrenkubakubabushizui.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/lanrenkubakubabushizui.lrc",
+            "time": 289,
+            "size": 5043868,
+            "format": "mp3"
+        },
+
+ 	{
+            "songname": "冰雨",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "经典重现",
+            "songlink": "http://123.56.110.97/carlink/music/song/bingyu.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/bingyu.lrc",
+            "time": 256,
+            "size": 449252,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "世界等一等",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "经典重现",
+            "songlink": "http://123.56.110.97/carlink/music/song/shijiediyideng.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/shijiediyideng.lrc",
+            "time": 234,
+            "size": 4167811,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "今天",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "真永远",
+            "songlink": "http://123.56.110.97/carlink/music/song/jintian.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/jintian.lrc",
+            "time": 211,
+            "size": 3661433,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "来生缘",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "来生缘",
+            "songlink": "http://123.56.110.97/carlink/music/song/laishengyuan.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/laishengyuan.lrc",
+            "time": 205,
+            "size": 4645755,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "忘情水",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "忘情水",
+            "songlink": "http://123.56.110.97/carlink/music/song/wangqingshui.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/wangqingshui.lrc",
+            "time": 240,
+            "size": 4270983,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "天意",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "醉暖情声·爱与真",
+            "songlink": "http://123.56.110.97/carlink/music/song/tianyi.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/tianyi.lrc",
+            "time": 249,
+            "size": 4478853,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "开心的马骝",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "Andy Lau Live Concert_A",
+            "songlink": "http://123.56.110.97/carlink/music/song/kaixindemaliu.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/kaixindemaliu.lrc",
+            "time": 129,
+            "size": 2130903,
+            "format": "mp3"
+        },
+
+	{
+            "songname": "笨小孩",
+            "songid": "1712955",
+            "singer": "刘德华",
+            "album": "笨小孩",
+            "songlink": "http://123.56.110.97/carlink/music/song/benxiaohai.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/benxiaohai.lrc",
+            "time": 199,
+            "size": 3845262,
+            "format": "mp3"
+        },
+
+
+	{
+            "songname": "上海滩",
+            "songid": "5415116",
+            "singer": "刘德华",
+            "album": "新上海滩 电影原声大碟",
+            "songlink": "http://123.56.110.97/carlink/music/song/shanghaitan.mp3",
+            "lrclink": "http://123.56.110.97/carlink/music/lrc/shanghaitan.lrc",
+            "time": 198,
+            "size": 3349028,
+            "format": "mp3"
+        }
+]
